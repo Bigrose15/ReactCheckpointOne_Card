@@ -1,0 +1,18 @@
+/* Style for card hover effect */
+.card-hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Initial box shadow*/
+}
+.card-hover:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /*Box shadow on hover*/
+  transform: translateY(-10px); /* Lift effect */
+}
+
+/*Style for user card*/
+.user-card {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /*box shadow on user card*/
+}
+
+.userName {
+  font-size: smaller;
+  font-weight: 350;
+}
